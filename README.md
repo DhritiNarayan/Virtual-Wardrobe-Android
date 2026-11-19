@@ -29,6 +29,19 @@ Virtual Wardrobe helps users manage their clothing digitally and experiment with
 
 The application provides a simple interface for adding clothing, organizing items into categories, and combining different pieces to create outfits.
 
+## 📸 Screenshots
+
+### Home Page
+![Virtual Wardrobe Home](screenshots/homepage.png)
+
+### View Wardrobe
+![View All Outfits](screenshots/see%20all%20outfits.png)
+
+### Create Outfits
+![Create Outfits](screenshots/create%20outfits.png)
+
+### Saved Outfit Details
+![Saved Outfit Details](screenshots/open%20saved%20outfit.png)
 ## 🚀 Getting Started
 
 ### Prerequisites
