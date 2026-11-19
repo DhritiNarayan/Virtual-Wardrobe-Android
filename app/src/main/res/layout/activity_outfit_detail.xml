@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF0F5"
+    android:padding="20dp">
+
+    <!-- Back button -->
+    <Button
+        android:id="@+id/btnBackDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="← Back"
+        android:textAllCaps="false"
+        android:textColor="#92566B"
+        android:backgroundTint="#F4C6D7" />
+
+    <!-- Outfit name -->
+    <TextView
+        android:id="@+id/tvOutfitDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Outfit"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#92566B"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your outfit pieces 💗"
+        android:textSize="16sp"
+        android:textColor="#B77B91"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Scrollable clothing grid -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <GridLayout
+            android:id="@+id/gridOutfitDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:gravity="center" />
+
+    </ScrollView>
+
+</LinearLayout>

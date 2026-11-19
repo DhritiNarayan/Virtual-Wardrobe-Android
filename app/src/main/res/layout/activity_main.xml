@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- App Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIRTUAL WARDROBE"
+            android:textColor="#92566B"
+            android:textSize="13sp"
+            android:letterSpacing="0.2"
+            android:textStyle="bold" />
+
+        <!-- Welcome Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Dress your way."
+            android:textColor="#92566B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Your personal digital closet ✨"
+            android:textColor="#AA8492"
+            android:textSize="15sp" />
+
+        <!-- Add Clothes Button -->
+        <Button
+            android:id="@+id/btnAddClothes"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#E89AAE"
+            android:text="+  Add Clothes"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Create Outfit Button -->
+        <Button
+            android:id="@+id/btnCreateOutfit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#92566B"
+            android:text="✨  Create an Outfit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- My Saved Outfits Button -->
+        <Button
+            android:id="@+id/btnMySavedOutfits"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#D989A5"
+            android:text="💗  My Saved Outfits"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Collection Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="My Collection"
+            android:textColor="#92566B"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Organize your everyday style"
+            android:textColor="#AA8492"
+            android:textSize="13sp" />
+
+        <!-- Category Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/categoryTops"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                android:background="#FFFFFAFC"
+                android:gravity="center"
+                android:text="👕&#10;Tops"
+                android:textColor="#92566B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/categoryBottoms"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                android:background="#FFFFFAFC"
+                android:gravity="center"
+                android:text="👖&#10;Bottoms"
+                android:textColor="#92566B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Category Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/categoryDresses"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                android:background="#FFFFFAFC"
+                android:gravity="center"
+                android:text="👗&#10;Dresses"
+                android:textColor="#92566B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/categoryShoes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                android:background="#FFFFFAFC"
+                android:gravity="center"
+                android:text="👠&#10;Shoes"
+                android:textColor="#92566B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Category Row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/categoryAccessories"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="7dp"
+                android:background="#FFFFFAFC"
+                android:gravity="center"
+                android:text="👜&#10;Accessories"
+                android:textColor="#92566B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/categoryJackets"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="7dp"
+                android:background="#FFFFFAFC"
+                android:gravity="center"
+                android:text="🧥&#10;Jackets"
+                android:textColor="#92566B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Empty Collection Message -->
+        <TextView
+            android:id="@+id/txtEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="Your wardrobe is waiting for you! 🎀"
+            android:textColor="#AA8492"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btnShowAllClothes"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Show All Clothes"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="#92566B"
+            android:backgroundTint="#F4C6D7"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Wardrobe Grid -->
+        <GridLayout
+            android:id="@+id/gridWardrobe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:visibility="gone"
+            android:layout_marginTop="12dp" />
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="Made with love ♡"
+            android:textColor="#92566B"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</ScrollView>
